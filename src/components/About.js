@@ -12,6 +12,7 @@ export default class About extends React.Component {
         this.handleHover = this.handleHover.bind(this);
     }
 
+    // Для анимации на ховер
     handleHover(){
         this.setState({
             isHovered: !this.state.isHovered

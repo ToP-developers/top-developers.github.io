@@ -5,6 +5,19 @@ html {
     font-weight: 300;
 }
 
+.header__title_readme {
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 255, 255, 0.44);
+    margin-right: 1em;
+    border-radius: 10%;
+    padding: 0.2em;
+    font-size: 0.5em;
+    letter-spacing: 2px;
+    color: black;
+    opacity: 0.7;
+}
+
 .header__top {
     background: url("../img/header-background.png") no-repeat;
     height: 50%;
@@ -110,9 +123,6 @@ html {
     padding: 1em;
 }
 
-.team {
-
-}
 
 .team__title_text {
     display: inline-block;
@@ -168,10 +178,6 @@ html {
     font-weight: 400;
     opacity: 0.6;
     margin-bottom: 1em;
-}
-
-.team__members_right_content {
-
 }
 
 .slider-wrapper {

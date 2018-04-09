@@ -8,8 +8,9 @@ const Header = () => {
                     <i className="fa fa-star"/>
                     <div className="header__title_text">ToP</div>
                     <i className="fa fa-star"/>
-            </div>
-            <div className="header__title-sub">developers</div>
+                </div>
+                <div className="header__title-sub">developers</div>
+                <a className="header__title_readme" href="https://github.com/ToP-developers/top-developers.github.io#top-developersgithubio">README</a>
 
             <div className="header__top"></div>
 
