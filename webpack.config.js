@@ -1,9 +1,9 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 const config = {
-    devtool: 'cheap-module-source-map',
     entry: [
         './src/index.js',
     ],
@@ -19,8 +19,25 @@ const config = {
                 exclude: /node_module/
             },
             {
-                use: ['style-loader', 'css-loader'],
-                test: /\.css$/
+                test: /\.css$/,
+                use: [
+                    {
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader'
+                    },
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            plugins: [
+                                autoprefixer({
+                                    browsers:['ie >= 8', 'last 4 version']
+                                })
+                            ]
+                        }
+                    }
+                ]
             },
             {
                 test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
