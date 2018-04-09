@@ -157,7 +157,6 @@ html {
 }
 
 .team__members_left_motto {
-    font-style: italic;
     margin-top: 1em;
 }
 
@@ -251,6 +250,15 @@ html {
     right: -10px;
 }
 
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 @keyframes noise-anim {
     0% {

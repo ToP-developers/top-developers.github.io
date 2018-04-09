@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Верхний баннер
 const Header = () => {
     return (
         <div className="header">

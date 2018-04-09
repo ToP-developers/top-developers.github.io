@@ -6,7 +6,7 @@ import './static/css/fontawesome/css/font-awesome.css';
 import './static/css/animate.css';
 import './static/css/styles.css';
 
-
+// Главная точка входа сайта
 render(
   <App />,
   document.getElementById('root')

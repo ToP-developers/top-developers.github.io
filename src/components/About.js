@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Секция о команде
 export default class About extends React.Component {
     constructor(props) {
         super(props);

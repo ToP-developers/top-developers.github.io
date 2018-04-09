@@ -2,6 +2,7 @@ import * as React from "react";
 import Slider from "react-animated-slider";
 import 'react-animated-slider/build/horizontal.css';
 
+// Секция Кто мы?
 export default class Team extends React.Component {
     constructor(props) {
         super(props);
@@ -23,7 +24,7 @@ export default class Team extends React.Component {
                 photo: "vova",
                 motto: "Когда загориться - тогда и сделаем",
                 title: "Фронтенд джедай",
-                description: "Загадощное"
+                description: "*загадочное описание*"
             },
             {
                 name: "Москалев Илья",

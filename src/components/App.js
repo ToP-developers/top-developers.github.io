@@ -5,6 +5,7 @@ import About from './About';
 import Footer from './Footer';
 import Team from './Team';
 
+// Здесь собираем все компоненты вместе
 const App = () => {
     return (
         <div id="app">
