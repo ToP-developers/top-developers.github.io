@@ -1,5 +1,7 @@
 # top-developers.github.io
 
+Посмотреть здесь: https://top-developers.github.io/
+
 В ветке master находится минимизированная версия сайта, полученная с помощью бандлера webpack'а. 
 
 Читаемый код и все-все находится в ветке develop.
