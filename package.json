@@ -1,7 +1,7 @@
 {
-  "name": "react-material-landing-page",
+  "name": "top-developers",
   "version": "1.0.0",
-  "description": "Scaffold your full stack react apps today!",
+  "description": "ToP developers website",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -10,33 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iwilsonq/react-material-landing-page.git"
+    "url": "git+https://github.com/ToP-developers/top-developers.github.io.git"
   },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iwilsonq/react-material-landing-page/issues"
-  },
-  "homepage": "https://github.com/iwilsonq/react-material-landing-page#readme",
   "dependencies": {
     "express": "^4.14.0",
     "react": "^15.4.2",
     "react-animated-slider": "^0.5.1",
-    "react-dom": "^15.4.2",
-    "slick-carousel": "^1.8.1",
-    "url-loader": "^0.5.8"
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
-    "autoprefixer": "^8.2.0",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-env": "^1.1.7",
     "babel-preset-react": "^6.16.0",
     "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^1.0.1",
+    "url-loader": "^0.5.8",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^2.26.0",
-    "react-slick": "^0.23.1",
     "rimraf": "^2.6.1",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.0-rc.0",
