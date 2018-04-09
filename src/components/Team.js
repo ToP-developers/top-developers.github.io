@@ -13,28 +13,28 @@ export default class Team extends React.Component {
         this.team = [
             {
                 name: "Cвойкина Надя",
-                photo: "../static/img/meadow.jpg",
+                photo: "nadya",
                 motto: "Разочаровываем разработчиков с 2007",
                 title: "Кэп",
                 description: "Тут и говорить нечего. Сам все знаешь."
             },
             {
                 name: "Пряхин Вова",
-                photo: "../static/img/meadow.jpg",
+                photo: "vova",
                 motto: "Когда загориться - тогда и сделаем",
                 title: "Фронтенд джедай",
                 description: "Загадощное"
             },
             {
                 name: "Москалев Илья",
-                photo: "../static/img/meadow.jpg",
+                photo: "ilya",
                 motto: "Сыграем в карусель?",
                 title: "Бэкендер от бога",
                 description: "Не обманитесь его видом. Он настоящее чудовище. Не веришь?"
             },
             {
                 name: "Антон Кобзев",
-                photo: "../static/img/meadow.jpg",
+                photo: "artem",
                 motto: "Кто это?",
                 title: "Талисман",
                 description: "Видели ли вы его когда-нибудь? Навряд ли. Никто не видел. И не слышал. У него задача такая: держатся за занавесами, помогать, не прилагая усилий. Настоящий талисман. "
@@ -62,7 +62,7 @@ export default class Team extends React.Component {
                             <div className="team__members">
                             <div className="team__members_left">
                                 <div className="team__members_left_photo">
-                                    <img src={member.photo}/>
+                                    <div className={member.photo}></div>
                                 </div>
                                 <div className="team__members_left_motto">{member.motto}</div>
                             </div>

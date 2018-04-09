@@ -137,6 +137,11 @@ html {
     display: flex;
 }
 
+.team__members {
+    display: flex;
+    padding: 1em;
+}
+
 .team__members_left {
     width: 50%;
     padding: 1em;
@@ -147,10 +152,13 @@ html {
 }
 .team__members_left_photo {
     text-align: left;
+    height: 20em;
+    width: 20em;
 }
 
 .team__members_left_motto {
-
+    font-style: italic;
+    margin-top: 1em;
 }
 
 .team__members_right_top {
@@ -168,8 +176,81 @@ html {
 }
 
 .slider-wrapper {
-    width: 70%;
+    position: relative;
+    height: 25em;
+    overflow: hidden;
 }
+
+.nadya {
+    height:inherit;
+    background-image: url('../img/nadya.png');
+    background-repeat: no-repeat;
+}
+
+.vova {
+    height:inherit;
+    background-repeat: no-repeat;
+    background-image: url('../img/vova.png');
+}
+
+.ilya {
+    height:inherit;
+    background-repeat: no-repeat;
+    background-image: url('../img/ilya.png');
+}
+
+.artem {
+    height:inherit;
+    background-repeat: no-repeat;
+    background-image: url('../img/artem.png');
+}
+
+.slide {
+    height: inherit;
+}
+
+.footer {
+    margin-top: 1em;
+    text-align: center;
+    padding: 1em;
+    background-color: #999;
+    COLOR: white;
+    border-top: solid #00000052 3px;
+}
+
+.previousButton, .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: url('../img/arow-right.png') no-repeat center center / 16px;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    cursor: pointer;
+    border: none;
+    background-size:contain;
+    transition: all 0.3s ease;
+}
+
+.previousButton {
+    left: 0;
+    -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
+    transform: rotate(180deg) translateY(calc(50% + 0px));
+}
+
+.previousButton:hover {
+    left: -10px;
+}
+
+.nextButton {
+    right: 0;
+}
+
+.nextButton:hover {
+    right: -10px;
+}
+
 
 @keyframes noise-anim {
     0% {
